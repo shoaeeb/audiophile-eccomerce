@@ -5,7 +5,6 @@ import {
   ModalBody,
   useDisclosure,
   Img,
-  Box,
   Text,
   Link,
 } from "@chakra-ui/react";

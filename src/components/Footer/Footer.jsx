@@ -12,12 +12,14 @@ function Footer() {
       py={"20px"}
       w={"full"}
       backgroundColor={"#000"}
+      alignItems={width > 700 ? "flex-start" : "center"}
     >
       <Flex
         w="100%"
         gap={"5px"}
         flexDir={width > 700 ? "row" : "column"}
         justifyContent={"space-between"}
+        alignItems={width > 700 ? "flex-start" : "center"}
         px={"5%"}
       >
         <Link to={"/"} as={RouterLink}>
@@ -31,6 +33,7 @@ function Footer() {
           textTransform={"uppercase"}
           fontSize={"15px"}
           w={"50%"}
+          flexDir={width > 700 ? "row" : "column"}
         >
           <Link to={"/"} as={RouterLink}>
             Home
@@ -47,11 +50,11 @@ function Footer() {
         </Flex>
       </Flex>
       <Flex w={"50%"} p={"10px"} fontSize={"15px"} mx={"3.6%"}>
-        <Text color={"#fff"}>
-          Audiophile is an all in one stop to fulfill your audio needs. We're a
-          small team of music lovers and sound specialists who are devoted to
-          helping you get the most out of personal audio. Come and visit our
-          demo facility - we’re open 7 days a week.
+        <Text color={"#fff"} textAlign={width > 700 ? "left" : "center"}>
+          Audiophile is an all in one stop to fulfill your audio needs.
+          We&apos;re a small team of music lovers and sound specialists who are
+          devoted to helping you get the most out of personal audio. Come and
+          visit our demo facility - we&apos;re open 7 days a week.
         </Text>
       </Flex>
       <Flex
