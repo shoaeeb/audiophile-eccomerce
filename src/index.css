@@ -1,0 +1,35 @@
+:root {
+  --orange: #d87d4a;
+  --gray: #f2f2f2;
+  --black: #191919;
+}
+
+body {
+  overflow-x: hidden;
+}
+.section-hidden {
+  transform: translateY(65px);
+  transition: transform 0.5s ease-in-out;
+}
+
+.section-visible {
+  transition: transform 0.5s ease-in-out;
+}
+
+.section-translateX {
+  transform: translateX(30%);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--orange);
+}
+::-webkit-scrollbar-thumb {
+  background: #fac898;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fac898;
+}
