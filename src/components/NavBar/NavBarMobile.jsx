@@ -72,7 +72,7 @@ function NavBarMobile() {
                   <Img
                     src={"/images/cart/image-xx99-mark-one-headphones.jpg"}
                     alt="headphones"
-                    h={"90px"}
+                    h={"60px"}
                     background={"transparent"}
                   />
                   <Text>Headphones</Text>
@@ -90,7 +90,7 @@ function NavBarMobile() {
                   <Img
                     src={"/images/cart/image-zx9-speaker.jpg"}
                     alt="speakers"
-                    h={"90px"}
+                    h={"60px"}
                     background={"transparent"}
                   />
                   <Text>Speakers</Text>
@@ -108,7 +108,7 @@ function NavBarMobile() {
                   <Img
                     src={"/images/cart/image-yx1-earphones.jpg"}
                     alt="speakers"
-                    h={"90px"}
+                    h={"60px"}
                     background={"transparent"}
                   />
                   <Text>Earphones</Text>
